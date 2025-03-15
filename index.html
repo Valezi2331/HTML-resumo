@@ -1,0 +1,145 @@
+<!--! Não é tag e deve estar sempre no início  -->
+
+<!DOCTYPE html>
+
+<!-- * A partir daqui já é tag-->
+
+<!-- Tudo deve entre <html> é um código html-->
+
+<html>
+
+    <head>
+        <title>Aprendendo HTML</title>
+        <meta name="descrição" content="Uma página para prática e descrição de como usar o HTML">
+    </head>
+
+    <body>
+        <header>
+            <h1>Estudo de HTML</h1>
+            <p>Este site serve para um estudo de HTML, e para futuras revisões</p>
+        </header>
+
+        <main>
+
+            <!-- * Finalidade página-->
+            <section>
+                <h2>
+                    Sobre essa página
+                </h2>
+                <p>
+                    <strong>Essa página</strong> está sendo criada para uso pessoal, de uma forma que eu (o autor)
+                    possa <em>aprender e revisar</em> o conteúdo de <abbr title="HyperText Markup Language">HTML</abbr> futuramente. <br> Boa jornada!
+                </p>
+            </section>
+
+            <!-- * Diferentes fontes-->
+            <section>
+                <h2>
+                    O que é HTML?
+                </h2>
+                <p>
+                    <abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem de marcação de hipertexto, que é usada para criar páginas web. <br> 
+                    <strong>HTML</strong> é a base de todas as páginas web, e é usado para criar a estrutura de uma página web.
+                </p>
+            </section>
+
+            <!-- * Múltipla escolha-->
+            <section>
+                <h3>Tem algum dúvida?</h3>
+                <form>
+                    <input type="radio" value="sim" id="p1a" name="pergunta1">
+                    <label for="p1a">Sim</label><br>
+                    <input type="radio" value="não" id="p1b" name="pergunta1">
+                    <label for="p1b">Não</label><br>
+                </form>
+            </section>
+
+            <!-- * Pergunta texto-->
+            <section>
+                <h3>Deixe seu comentário aqui:</h3>
+                    <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder= "Digite seu comentário aqui">
+                    </form>
+            </section>
+
+            <!-- * Senha-->
+            <section>
+                <h3>Escrevea um exemplo de senha?</h3>
+                <form>
+                    <input type="password"  id="p3" name="pergunta3"
+                    placeholder="Digite sua senha aqui">
+                </form>
+            </section>
+
+            <!-- * Digite o dia de hoje-->
+            <section>
+                <h3>Exemplo de data</h3>
+                <form>
+                <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+
+            <!-- * Multilpa seleção-->
+            <section>
+                <h3>Sabe algumma linguagem de desenvolvimento de site?</h3>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5">
+                    <label for="p5a">Javascript</label>
+                    <input type="checkbox" id="p5b" name="pergunta5">
+                    <label for="p5b">CSS</label>
+                    <input type="checkbox" id="p5c" name="pergunta5">
+                    <label for="p5c">Não</label>
+                </form>
+            </section>
+
+            <!-- * Upload de arquivo-->
+            <section>
+                <h3>Faça um upload de uma imagem</h3>
+                <form>
+                <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+
+            <!-- * Opção-->
+            <section>
+                <h3>Selecione sua favorita</h3>
+                <form>
+                    <select  id="p7" name="pergunta7">
+                        <option value="Javacsript">Javacsript</option>
+                        <option value="CSS">CSS</option>
+                    </select>
+                </form> 
+            </section>
+
+            <!-- * Tabela-->
+            <section>
+                    <h2>Exemplo de tabela</h2>
+                    <table border="2">
+                        <tr>
+                            <td>Nome</td>
+                            <td>Idade</td>
+                        </tr>
+                        <tr>
+                            <td>Leonardo</td>
+                            <td>21</td>
+                        </tr>
+                    </table>
+            </section>
+
+            <!-- * Imagem-->
+            <section id="agradecimento">
+                <h3>Muito obrigado pela atenção</h3>
+                <figure>
+                    <img src="Imagens/aaaaaa.png" alt="Imagem de agradecimento com um ícone de coração">
+                    <figcaption>Obrigado por acessar</figcaption>
+                </figure>
+            </section>
+            
+        </main>
+    
+        <footer>
+            <p>&copy;Leonardo Valezi, 2025</p>
+        </footer>      
+    </body>
+
+</html>
